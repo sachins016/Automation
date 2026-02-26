@@ -96,7 +96,7 @@ export default function Contact() {
                 </div>
                 <h4 className="text-3xl font-display font-bold mb-4">Message Sent!</h4>
                 <p className="text-neutral-400 text-lg mb-8">
-                  Thanks for reaching out, Sachin. I'll get back to you within 24 hours.
+                  Thanks for reaching out. I'll get back to you within 24 hours.
                 </p>
                 <button 
                   onClick={() => setStatus('idle')}
