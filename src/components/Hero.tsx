@@ -18,13 +18,13 @@ export default function Hero() {
             </motion.div>
             
             <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-5xl md:text-7xl xl:text-8xl font-display font-bold tracking-normal leading-tight mb-8"
-            >
-              I design scalable <span className="text-neutral-400">AI automations</span> for modern businesses.
-            </motion.h1>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1 }}
+  className="text-5xl md:text-7xl xl:text-8xl font-display font-bold tracking-tight leading-[0.9] mb-8"
+>
+  I build <span className="text-neutral-400">AI-powered</span> automations that scale with you.
+</motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
